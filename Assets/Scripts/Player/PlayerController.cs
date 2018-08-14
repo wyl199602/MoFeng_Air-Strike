@@ -12,8 +12,8 @@ public class PlayerController : MonoBehaviour
 	FlightSystem flight;// Core plane system
 	FlightView View;
 	public bool Active = true;
-	public bool SimpleControl;// make it easy to control Plane will turning easier.
-	public bool Acceleration;// Mobile*** enabled gyroscope controller
+	public bool SimpleControl = true;// make it easy to control Plane will turning easier.
+	public bool Acceleration = false;// Mobile*** enabled gyroscope controller
 	public float AccelerationSensitivity = 5;// Mobile*** gyroscope sensitivity
 	private TouchScreenVal controllerTouch;// Mobile*** move
 	private TouchScreenVal fireTouch;// Mobile*** fire
